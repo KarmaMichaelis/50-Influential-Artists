@@ -133,12 +133,31 @@ nav .aborder {
 .artists-container {
   display: flex;
 }
+.artists-container a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 3% 0;
+}
+.artists-container .first {
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+}
 .artists-container .first img {
   width: 40%;
   border-radius: 5px;
 }
 .artists-container .first img:hover {
   opacity: 80%;
+}
+.artists-container .first .bio {
+  width: 50%;
+}
+.artists-container .second {
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
 }
 .artists-container .second img {
   width: 75%;

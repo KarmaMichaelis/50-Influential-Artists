@@ -224,9 +224,10 @@ console.log(artists[8]="Vincent Van Gogh");
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(id, name) {
-   return 'The artist at index'
-  }
-  
+  return 'The artist at index ' + id  + ' is ' + name;
+ }
+ console.log(getArtistByIndex(19, "Albrecht Dürer"));
+ 
   /**
 
 
@@ -238,8 +239,8 @@ function getArtistByIndex(id, name) {
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function removeArtist(/*code here*/) {
-    /* code here */
+function removeArtist(id, index ) {
+    return removeArtist
   }
   
   /**

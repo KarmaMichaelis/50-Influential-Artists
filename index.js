@@ -259,11 +259,12 @@ function get20s(array){
 
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(/* Code here */){
+function lotsOfArt([artists]){
 
-    /* Code here */
+    return [artists]
 
   }
+  console.log(lotsOfArt([artists]))
 
 
 /* Task 7: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
@@ -275,20 +276,29 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
+function addArtist(array){
 
-    /* Code here */
+  array.push
+    {
+      "id": 21,
+      "name" : "Amber Dixon", 
+      "years": "1998-2020",
+      "genre": "Web Design", 
+      "nationality": "American",
+      "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ratione aspernatur odit quo cupiditate? Ut sed veniam necessitatibus quibusdam eius. Repellat nostrum reprehenderit natus dolore quos, aliquid esse libero voluptatum! "}
 
   }
-
+console.log(addArtist(artists))
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
 function checkArtist(name){
+  if (name="El Greco")
 
-    /* Code here */
+   return name 
 
   }
+  console.log(checkArtist("El Greco"))
 
 
 

@@ -240,9 +240,10 @@ function getArtistByIndex(id, name) {
  * it will remove Amedeo Modigliani from our dataset.
 */
 function removeArtist(array, index ) {
-  
-  }
-  
+  artists.splice(1, 1)
+ return array 
+ };
+  console.log(removeArtist(artists));
   
   /**
 
@@ -250,10 +251,10 @@ function removeArtist(array, index ) {
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1900-1999) */
 
 function get20s(array){
-
+ return array;
    
-
   }
+ console.log(get20s(artists))
 
 
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
@@ -283,7 +284,7 @@ function addArtist(/* Code here */){
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
-function checkArtist(/* Code here */){
+function checkArtist(name){
 
     /* Code here */
 

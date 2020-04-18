@@ -239,20 +239,22 @@ function getArtistByIndex(id, name) {
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function removeArtist(id, index ) {
-    return removeArtist
+function removeArtist(array, index ) {
+  
   }
+  
   
   /**
 
 
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1900-1999) */
 
-function get20s(/* Code here */){
+function get20s(array){
 
-    /* Code here */
+   
 
   }
+
 
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 

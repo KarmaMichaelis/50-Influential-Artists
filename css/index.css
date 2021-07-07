@@ -1,4 +1,168 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+nav {
+  font-size: 2rem;
+  margin: 4% 2%;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #5e5a5a;
+  margin-right: 1%;
+}
+nav .aborder {
+  border-left: 2px solid grey ;
+  border-right: 2px solid grey;
+  text-align: center;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+.title-container {
+  position: relative;
+  color: white;
+  font-size: 5rem;
+}
+.title-container img {
+  width: 75%;
+  margin-left: 10%;
+}
+.title-container .center {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  position: absolute;
+  top: 43%;
+  left: 55%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+}
+.title-container button {
+  font-size: 1rem;
+  color: #646161;
+  background: white;
+  width: 25%;
+  height: 5vh;
+  margin-left: 3%;
+}
+.artists-container {
+  display: flex;
+}
+.artists-container a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 3% 0;
+}
+.artists-container .first {
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+}
+.artists-container .first img {
+  width: 40%;
+  border-radius: 5px;
+}
+.artists-container .first img:hover {
+  opacity: 80%;
+}
+.artists-container .first .bio {
+  width: 50%;
+}
+.artists-container .second {
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.artists-container .second img {
+  width: 75%;
+  border-radius: 5px;
+}
+.artists-container .second img:hover {
+  opacity: 80%;
+}
